@@ -6,7 +6,6 @@ import org.springframework.web.socket.config.annotation.EnableWebSocket
 import org.springframework.web.socket.server.standard.ServerEndpointExporter
 
 @Configuration
-@EnableWebSocket
 class WebSocketConfiguration {
     @Bean
     fun serverEndpointExporter(): ServerEndpointExporter {
